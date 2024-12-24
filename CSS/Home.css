@@ -1,0 +1,246 @@
+html {
+    background: rgba(0, 0, 0, 0);
+
+}
+html, body {
+    height: 100%; /* Assure que le corps prend toute la hauteur de la fenêtre */
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Arial, sans-serif; /* Définit la police de caractères */
+}
+
+header {
+    background: rgba(0, 0, 0, 0); /* Fond transparent pour l'en-tête */
+}
+
+body {
+    background-image: url('/Image/Fond.jpg'); /* Image de fond */
+    background-size: cover; /* Couvre tout l'espace disponible */
+    background-position: center ; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Ne répète pas l'image */
+    background-color: #997781d2;
+}
+
+.material-symbols-outlined {
+    font-size: 46px; /* Taille des icônes */
+    color: #000000;  /* Exemple de couleur */
+}
+
+.Logo-image {
+    top: 1%;
+    position: absolute;
+    width: 100px; /* Largeur de l'image */
+    height: auto; /* Conserve le ratio de l'image */
+    margin: 0 10px;
+    left: 1vh;
+    top: 1%;
+}
+
+/* -----TEXT------- */
+
+.containertext1 {
+    top:01%; /* Positionne le conteneur à 80% du haut de la page */
+    width: 50%;
+}
+.containertext1 {
+    display: flex; /* Utilisation de Flexbox pour l'alignement */
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: absolute; /* Positionnement absolu pour le contrôle précis */
+    left: 95%; /* Centre le conteneur horizontalement */
+    transform: translateX(-80%); /* Ajuste le conteneur pour le centrer */
+    outline: 1px solid red;
+}
+
+/* Style pour le bouton d'invitation */
+.btn-text {
+    cursor: pointer; /* Change le curseur en pointeur sur survol */
+    font-size: 4vw; /* Taille de police relative à la largeur de la fenêtre */
+    background-color: #f0cbaa; /* Couleur de fond du bouton */
+    color: #000000; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    padding: 4% 8%; /* Espacement interne du bouton */
+    border-radius: 10px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* Styles pour l'état focus du bouton d'invitation */
+.btn-text:focus {
+    outline: none; /* Supprime le contour lors du focus */
+}
+
+/* Styles pour l'état hover du bouton d'invitation */
+.btn-text:hover {
+    background-color: #ffeafa33; /* Change la couleur de fond au survol */
+}
+
+/* Styles pour l'état actif du bouton d'invitation */
+.btn-text:active {
+    transform: scale(0.95); /* Réduit légèrement la taille lors du clic */
+}
+
+/* -----TEXT------- */
+
+.containertext2 {
+    top: 07%; /* Positionne le conteneur à 80% du haut de la page */
+}
+.containertext2 {
+    display: flex; /* Utilisation de Flexbox pour l'alignement */
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: absolute; /* Positionnement absolu pour le contrôle précis */
+    left: 98%; /* Centre le conteneur horizontalement */
+    transform: translateX(-100%); /* Ajuste le conteneur pour le centrer */
+    outline: 1px solid red;
+}
+
+/* Style pour le bouton d'invitation */
+.btn-text2 {
+    cursor: pointer; /* Change le curseur en pointeur sur survol */
+    font-size: 4vw; /* Taille de police relative à la largeur de la fenêtre */
+    background-color: #f0cbaa; /* Couleur de fond du bouton */
+    color: #000000; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    padding: 4% 8%; /* Espacement interne du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* Styles pour l'état focus du bouton d'invitation */
+.btn-text2:focus {
+    outline: none; /* Supprime le contour lors du focus */
+}
+
+/* Styles pour l'état hover du bouton d'invitation */
+.btn-text2:hover {
+    background-color: #ffeafa33; /* Change la couleur de fond au survol */
+}
+
+/* Styles pour l'état actif du bouton d'invitation */
+.btn-text2:active {
+    transform: scale(0.95); /* Réduit légèrement la taille lors du clic */
+}
+
+/* --------Ovrir Camera---------- */
+
+.container1 {
+    display: flex; /* Utilisation de Flexbox pour l'alignement */
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: absolute; /* Positionnement absolu pour le contrôle précis */
+    left: 50%; /* Centre le conteneur horizontalement */
+    transform: translateX(-50%); /* Ajuste le conteneur pour le centrer */
+    outline: 1px solid red;
+}
+
+.container1 {
+    top: 75%; /* Positionne le conteneur à 5% du haut de la page */
+}
+
+.btn-ouvrir-camera {
+    cursor: pointer; /* Change le curseur en pointeur sur survol */
+    font-size: 3vw; /* Taille de police relative à la largeur de la fenêtre */
+    background-color: #f0cbaa; /* Couleur de fond du bouton */
+    color: #6F4C3E; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    width: 23vw; /* Largeur relative qui s'adapte à la taille de la fenêtre */
+    height: 23vw; /* Hauteur relative qui s'adapte à la taille de la fenêtre */
+    border-radius: 50%; /* Rendre le bouton complètement rond */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition douce pour le changement de couleur et l'échelle */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+.btn-ouvrir-camera:focus {
+    outline: none; /* Supprime le contour lors du focus */
+}
+.btn-ouvrir-camera:hover {
+    background-color: #ffeafa33; /* Change la couleur de fond au survol */
+}
+.btn-ouvrir-camera:active {
+    transform: scale(0.95); /* Réduit légèrement la taille lors du clic */
+}
+
+/* ---------Ouvrir  Gallerie--------- */
+
+.container2 {
+    display: flex; /* Utilisation de Flexbox pour l'alignement */
+    justify-content: center; /* Centre le contenu horizontalement */
+    position: absolute; /* Positionnement absolu pour le contrôle précis */
+    left: 20%; /* Centre le conteneur horizontalement */
+    transform: translateX(-50%); /* Ajuste le conteneur pour le centrer */
+    outline: 1px solid red;
+}
+
+.container2 {
+    top: 78%; /* Positionne le conteneur à 80% du haut de la page */
+}
+
+.btn-ouvrir-gallerie {
+    cursor: pointer; /* Change le curseur en pointeur sur survol */
+    font-size: 3vw; /* Taille de police relative à la largeur de la fenêtre */
+    background-color: #f0cbaa; /* Couleur de fond du bouton */
+    color: #6F4C3E; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    width: 15vw; /* Largeur relative qui s'adapte à la taille de la fenêtre */
+    height: 15vw; /* Hauteur relative qui s'adapte à la taille de la fenêtre */
+    border-radius: 20%; /* Rendre le bouton complètement rond */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition douce pour le changement de couleur et l'échelle */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+.btn-ouvrir-gallerie:focus {
+    outline: none; /* Supprime le contour lors du focus */
+}
+.btn-ouvrir-gallerie:hover {
+    background-color: #ffeafa33; /* Change la couleur de fond au survol */
+}
+.btn-ouvrir-gallerie:active {
+    transform: scale(0.95); /* Réduit légèrement la taille lors du clic */
+}
+
+
+/* ------------------- */
+
+
+footer {
+    background: rgba(0, 0, 0, 0); /* Ajouter un fond semi-transparent pour le footer */
+    color: #6F4C3E; /* Couleur du texte */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+
+/* Styles pour les petits écrans */
+@media only screen and (max-width: 760px) {
+
+    html {
+        overflow: hidden; /* Empêche le défilement */
+        
+    }
+    
+    body {
+        overflow: hidden;
+        font-size: 30px; /* Ajuster la taille de la police pour les petits écrans */
+    }
+
+    .containertext1 {
+        width: 40%; /* S'assurer que le conteneur prend toute la largeur de l'écran */
+        top: 2%; /* Ajuster la position du bouton d'invitation */
+        left: 43vh;
+    }
+
+    .containertext2 {
+        width: 20%; /* S'assurer que le conteneur prend toute la largeur de l'écran */
+        top: 07%; /* Ajuster la position du bouton d'invitation */
+        left: 47vh;
+    }
+
+    /* ouvrir Camera */
+    .container1 {
+        width: 40%; /* S'assurer que le conteneur prend toute la largeur de l'écran */
+        top: 80%; /* Positionne le conteneur à 5% du haut de la page */
+    }
+
+
+    /* ouvrir Gallerie */
+    .container2 {
+        width: 30%; /* S'assurer que le conteneur prend toute la largeur de l'écran */
+        top: 82%; 
+        left: 20%;/* Ajuster la position du bouton d'invitation */
+    }
+}

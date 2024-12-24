@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/allianceico.png" type="image/png" sizes="32x32">
+    <title>Mariage Noi & Sam</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Home.css"> <!-- Votre fichier CSS -->
+</head>
+<body>
+    <p><img src="Image/logo Mariage.png" alt="Logo_Mariage" class="Logo-image"></p>
+
+    <div class="containertext1">
+        <button id="btn-text" class="btn-text">Gallerie partager</button>
+    </div>
+    <div class="containertext2">
+        <button id="btn-text2" class="btn-text2">Share</button>
+    </div>
+    
+    <div class="container1">
+        <button id="btn-ouvrir-camera" class="btn-ouvrir-camera">
+            <i class="material-symbols-outlined" id="son-icon">photo_camera</i>
+        </button>
+    </div>
+    <div class="container2">
+        <button id="btn-ouvrir-gallerie" class="btn-ouvrir-gallerie">
+            <i class="material-symbols-outlined" id="son-icon">photo_library</i>
+        </button>
+    </div>
+
+    <!-- Inputs cachés pour ouvrir la caméra et la galerie -->
+    <input type="file" id="input-camera" accept="image/*" capture="camera" style="display: none;">
+    <input type="file" id="input-gallery" accept="image/*" style="display: none;">
+
+    <script src="JAVASCRIPT/Home.js"></script> <!-- Fichier JavaScript -->
+</body>
+</html>
+
